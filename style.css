@@ -1,0 +1,114 @@
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+.links {
+  display: flex;
+
+  justify-content: space-between;
+  gap: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.lead__logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.titre {
+  display: flex;
+  justify-content: center;
+}
+.paragraphe {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+body {
+  margin: 0 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.services {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  margin: 50px 0;
+}
+.services > div {
+  width: 30%;
+  border-radius: 10px;
+  padding: 2em 2em;
+  overflow: hidden;
+  height: 345px;
+  color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ser1 {
+  background-color: #00ccb1;
+}
+.ser2 {
+  background-color: #3d83df;
+}
+.ser3 {
+  background-color: #1b2734;
+}
+.img {
+  height: 24px;
+  width: 24px;
+}
+select {
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  font-size: 20px;
+}
+select:focus-visible {
+  outline: 0;
+}
+.par2 {
+  display: flex;
+  height: fit-content;
+  background-color: #e5faf8;
+}
+.left {
+  flex: 1;
+  padding: 20px;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+.left h1,
+.hout {
+  font-size: 2.125rem;
+  color: #00b39b;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.right div {
+  display: flex;
+  height: 250px;
+  width: 220px;
+  background-color: white;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right div h1 {
+  text-align: center;
+}
+.pout {
+  text-align: center;
+  padding: 0 20%;
+}
